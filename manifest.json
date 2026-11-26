@@ -1,0 +1,11 @@
+{
+  "version": "2026.15",
+  "date": "26 Kasım 2026",
+  "title": "Gerçek Saha Kayıtlı Savaş Uçağı & Askeri Helikopter Ses Paketi (Dengeli RTS Miksajı)",
+  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.15/WIC_Yama_v2026.15.zip",
+  "sha256": "d721492f52ca53398f06c3549c76d2ec7ff8173892bbbabfe88507a02f418bf6",
+  "highlights": [
+    "12 savaş uçağı ve helikopter ses slotu (jet, jet_roar, plane_roar, airplaneackjetsmall, jetmisslefire, helicopter_hover, helicopter_roar, ch47_chinook_hover/select, helicopter_rocket_alt) gerçek F-16/Harrier/Chinook/askeri helikopter saha kayıtlarıyla yenilendi.",
+    "Tüm sesler 44.1 kHz 16-bit Stereo PCM .wav olarak pürüzsüz döngülü ve kulağı yormayan dengeli RTS seviyesinde (-20 dB RMS / -7.5 dB tavan) mastering edilip hem Mod hem Ana Oyun klasörüne senkronlandı."
+  ]
+}
