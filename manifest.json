@@ -1,18 +1,17 @@
 {
-  "version": "2026.18",
+  "version": "2026.19",
   "date": "26 Kasım 2026",
-  "title": "İleri Seviye Sinematik VFX — Katmanlı Zincir, 313 Birim, CC0 Efektler ve Global Patlama",
-  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.18/WIC_Yama_v2026.18.zip",
-  "sha256": "bc2487b4c34edb3e0e200c7875d50fd06991259a358baa18cb8976ed9145dad8",
+  "title": "Savaş Sesi Onarımı, 4K Dokular, Yeni Yangın/Patlama Efektleri ve Ağır Yıkım",
+  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.19/WIC_Yama_v2026.19.zip",
+  "sha256": "f652023bf2c6faf08b42e5b7fd61f85b1e2c96929fe7285da59ad4c2ed2e2ba9",
   "highlights": [
-    "5 aşamalı ileri VFX sistemi tamamlandı: atlas düzeltmesi, katmanlı sinematik zincir, geniş birim kapsamı, yeni CC0 efektler ve global patlama zinciri.",
-    "Atlas düzeltmesi: 8 WIC efekt sisteminde twidth=128 ve doğru tu/tv kare ofsetleri; A/B/C frame varyasyonları eklendi.",
-    "Katmanlı zincir: çarpma flaşı → zırh kıvılcımı → ana patlama → şok dalgası → ağır duman → yanma akışı; toplam 2.318 PARTICLEEVENT.",
-    "Kapsam 13 birimden 313 birime çıktı: modern TSK, F-16 / TF-X KAAN, helikopter, topçu / MLRS, füze / SAM, gemi ve piyade dahil. Tüm yeni event'ler node=0 ile güvenli.",
-    "Kenney Particle Pack (CC0) kaynaklarından 6 yeni 512x512 32-bit TGA flipbook üretildi: kıvılcım, yoğun duman, yeni muzzle, EMP/elektrik, şok halkası, su sıçraması.",
-    "Global EXPLOSION artık 16 karelik wic_global_chain_sheet.tga patlama zinciri; PULSEWAVE 16 karelik wic_shockwave_ring_sheet.tga ile gerçek genişleyen halka.",
-    "Toplam 32 WIC PARTICLESYSTEM, 37 particle TEXTURE ve 16 doğrulanmış sheet; mod + root XML hash'leri birebir eşleşiyor, ElementTree parse temiz.",
-    "Her adım için ayrı tarihli yedek klasörü ve GERI_AL.bat / GERI_AL.py oluşturuldu; istenirse tek tıkla geri alınabilir.",
-    "Launcher envanteri, shareable patch listesi, GitHub manifest/release ve arkadaş paketi 8 yeni sheet ile güncellendi."
+    "Makineli tüfek / piyade sesleri 56 dosyada orijinal kayıtlarına donduruldu; mod + root birebir senkron. 20mm varyasyonları korundu.",
+    "38 boş ses referansı susturuldu, 8 yanlış eşleşen ses doğru kaynakla değiştirildi; KAAN sesleri stereo 44.1 kHz / 16 bit'e yükseltildi. soundfiles.xml 981/981 çözüldü, dangling 0.",
+    "Poly Haven CC0 4K kaynaklardan 8 doku orijinal TGA boyutlarına Lanczos ile indirildi ve alpha maskeleri korundu; 5 asker slaytı orijinal fotoğraflarına döndürüldü.",
+    "Napalm Strike ve Fuel Drum Blast: 2 yeni 32-bit flipbook atlas, 2 yeni PARTICLESYSTEM ve 2 DEBRIS eventi (node=0). Toplam PARTICLEEVENT 513, PARTICLESYSTEM 210.",
+    "Yıkıntıda alev / duman / kıvılcım zinciri, ağır yıkım sesi ve AC-130 motor + 30mm sesleri restore edildi; 4 yeni WAV mod + root'a eklendi.",
+    "Ana menü deneyleri (premium / Claude paketi) geri alındı; orijinal 7 butonlu menü, center_off_x=0 ve top=220 korundu.",
+    "Tüm Data XML'leri parse edildi, 0 duplicate event, 0 node!=0; yeni sesler 44.1 kHz / 16 bit stereo, restore edilen eski sesler muaf.",
+    "Launcher envanteri, indirilebilir yama zip'i, GitHub manifest/release ve arkadaş güncelleme paketi v2026.19 için senkronize edildi."
   ]
 }
