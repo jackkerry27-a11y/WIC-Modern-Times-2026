@@ -1,12 +1,12 @@
 {
   "version": "2026.16",
-  "date": "26 Kasım 2026",
-  "title": "Savaş Çökmesi Düzeltmesi — 126 Birimde 1.344 Kemik İndeksi Hatası + Model Optimizasyonu",
+  "date": "26 Kasim 2026",
+  "title": "Savas Cokmesi Duzeltmesi - 126 Birimde 1.344 Kemik Indeksi Hatasi + Model Optimizasyonu",
   "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.16/WIC_Yama_v2026.16.zip",
   "sha256": "b2c82a61fe8318c3827e0f0f0b364d5b613ccf0cb78e54dda9707eeb575048b5",
   "highlights": [
-    "126 birimde 1.344 adet çökmeye neden olan sınır dışı kemik indeksi (node >= num_bones) unit_graphics.xml içinde düzeltildi; HUMVEE04-NA, MT05-NA, MBT05-NA, M109-NA, AS90-NA ve tüm jet/gemi birimleri dahil.",
-    "T-155 Fırtına II (14.238 → 8.675 vertex) ve F-16 Türk HD (13.552 → 8.440 vertex) modelleri UV korumalı optimizasyonla DirectX 9 vertex buffer sınırının altına indirildi.",
-    "AS90-NA CREW1 / PACKED-CREW1 modeli yanlışlıkla T155_FIRTINA_II.BH3 olarak atanmış durumdan K9.bh3 orijinaline geri döndürüldü."
+    "126 birimde 1.344 adet cokmeye neden olan sinir disi kemik indeksi duzeltildi",
+    "T-155 Firtina II ve F-16 Turk HD modelleri optimize edildi",
+    "AS90-NA CREW1 modeli onarildi"
   ]
 }
