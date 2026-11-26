@@ -1,11 +1,12 @@
 {
-  "version": "2026.15",
+  "version": "2026.16",
   "date": "26 Kasım 2026",
-  "title": "Gerçek Saha Kayıtlı Savaş Uçağı & Askeri Helikopter Ses Paketi (Dengeli RTS Miksajı)",
-  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.15/WIC_Yama_v2026.15.zip",
-  "sha256": "d721492f52ca53398f06c3549c76d2ec7ff8173892bbbabfe88507a02f418bf6",
+  "title": "Savaş Çökmesi Düzeltmesi — 126 Birimde 1.344 Kemik İndeksi Hatası + Model Optimizasyonu",
+  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.16/WIC_Yama_v2026.16.zip",
+  "sha256": "b2c82a61fe8318c3827e0f0f0b364d5b613ccf0cb78e54dda9707eeb575048b5",
   "highlights": [
-    "12 savaş uçağı ve helikopter ses slotu (jet, jet_roar, plane_roar, airplaneackjetsmall, jetmisslefire, helicopter_hover, helicopter_roar, ch47_chinook_hover/select, helicopter_rocket_alt) gerçek F-16/Harrier/Chinook/askeri helikopter saha kayıtlarıyla yenilendi.",
-    "Tüm sesler 44.1 kHz 16-bit Stereo PCM .wav olarak pürüzsüz döngülü ve kulağı yormayan dengeli RTS seviyesinde (-20 dB RMS / -7.5 dB tavan) mastering edilip hem Mod hem Ana Oyun klasörüne senkronlandı."
+    "126 birimde 1.344 adet çökmeye neden olan sınır dışı kemik indeksi (node >= num_bones) unit_graphics.xml içinde düzeltildi; HUMVEE04-NA, MT05-NA, MBT05-NA, M109-NA, AS90-NA ve tüm jet/gemi birimleri dahil.",
+    "T-155 Fırtına II (14.238 → 8.675 vertex) ve F-16 Türk HD (13.552 → 8.440 vertex) modelleri UV korumalı optimizasyonla DirectX 9 vertex buffer sınırının altına indirildi.",
+    "AS90-NA CREW1 / PACKED-CREW1 modeli yanlışlıkla T155_FIRTINA_II.BH3 olarak atanmış durumdan K9.bh3 orijinaline geri döndürüldü."
   ]
 }
