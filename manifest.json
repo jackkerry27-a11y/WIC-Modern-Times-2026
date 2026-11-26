@@ -1,12 +1,21 @@
 {
-  "version": "2026.16",
-  "date": "26 Kasim 2026",
-  "title": "Savas Cokmesi Duzeltmesi - 126 Birimde 1.344 Kemik Indeksi Hatasi + Model Optimizasyonu",
-  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.16/WIC_Yama_v2026.16.zip",
-  "sha256": "b2c82a61fe8318c3827e0f0f0b364d5b613ccf0cb78e54dda9707eeb575048b5",
+  "version": "2026.17",
+  "date": "26 Kasım 2026",
+  "title": "Unity Labs CC0 VFX Flipbook Paketi + Launcher Güncelleme",
+  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.17/WIC_Yama_v2026.17.zip",
+  "sha256": "e9d7c180b25f7cd88b5a580ce2af4f7bfb86dfffedcb2fbbeed7776be588c79e",
   "highlights": [
-    "126 birimde 1.344 adet cokmeye neden olan sinir disi kemik indeksi duzeltildi",
-    "T-155 Firtina II ve F-16 Turk HD modelleri optimize edildi",
-    "AS90-NA CREW1 modeli onarildi"
+    "Unity Labs Paris CC0 lisansıyla elde edilen 8 yeni patlama/ateş/duman efekt şeması (flipbook) oyuna eklendi.",
+    "8 TGA 512x512 flipbook sheet oluşturuldu: Explosion00, Explosion01, Explosion02 (patlama), FireBall01, FireBall02 (muzzle flash / ateş), WispySmoke01 (füze duman izi), Flame02, Flame03 (yanma döngüsü).",
+    "Data\\effects_graphics.xml güncellendi: 8 yeni TEXTURE referansı ve 8 yeni PARTICLESYSTEM eklendi.",
+    "Her iki dosya klasörüne de kopyalandı: mods\\WIC Modern Times 1950-2020 EE\\art\\ VE c:\\Games\\Rise of Nations\\art\\ (DirectX 9 TGA zorunluluğu).",
+    "Launcher kaynak kodu (wic_launcher.py) güncellendi: get_state() metoduna 8 yeni VFX sheet entry eklendi.",
+    "WIC_2026_Launcher.exe PyInstaller ile yeniden derlendi: build tamam, distributable EXE güncellendi.",
+    "Tüm değişiklikler backup_rebalance_original\\vfx_unity_labs_20261126\\ altına yedeklendi.",
+    "13 birim / 52 PARTICLEEVENT baglandi (F-16, TF-X KAAN, T129 ATAK, UH-60, Cobra, T-155, piyade, alev atici, Leopard 2). Hepsi node=0 ile guvenli.",
+    "8 WIC efekt tipinin tamami oyunda cagriliyor: muzzle flash, roket atesi, duman izi, kucuk/orta/buyuk patlama, yanan ates, kucuk alev.",
+    "Global EXPLOSION artik 4x4 = 16 karelik yeni flipbook: explosion00_sheet.tga (mod + root effects_graphics.xml).",
+    "jetmisslefire.wav en eski 2003 orijinal surumuyle (55 KB ADPCM) degistirildi; onceki surum yedeklendi.",
+    "Tum VFX degisiklikleri icin GERI_AL.bat iceren ayri yedek klasorleri olusturuldu."
   ]
 }
