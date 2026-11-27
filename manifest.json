@@ -1,17 +1,14 @@
 {
-  "version": "2026.19",
-  "date": "26 Kasım 2026",
-  "title": "Savaş Sesi Onarımı, 4K Dokular, Yeni Yangın/Patlama Efektleri ve Ağır Yıkım",
-  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.19/WIC_Yama_v2026.19.zip",
-  "sha256": "f652023bf2c6faf08b42e5b7fd61f85b1e2c96929fe7285da59ad4c2ed2e2ba9",
+  "version": "2026.20",
+  "date": "27 KasÄ±m 2026",
+  "title": "ABD BinalarÄ± USA'ya Ã–zgÃ¼ â€” SÄ±zma, Eski/Yeni KarÄ±ÅŸma ve Library/Hiza DÃ¼zeltmeleri",
+  "zip_url": "https://github.com/jackkerry27-a11y/WIC-Modern-Times-2026/releases/download/v2026.20/WIC_Yama_v2026.20.zip",
+  "sha256": "b166e2e7e599e60b2c606dad38c6a0ff17cc6c0b87ef496339db20d458019f9f",
   "highlights": [
-    "Makineli tüfek / piyade sesleri 56 dosyada orijinal kayıtlarına donduruldu; mod + root birebir senkron. 20mm varyasyonları korundu.",
-    "38 boş ses referansı susturuldu, 8 yanlış eşleşen ses doğru kaynakla değiştirildi; KAAN sesleri stereo 44.1 kHz / 16 bit'e yükseltildi. soundfiles.xml 981/981 çözüldü, dangling 0.",
-    "Poly Haven CC0 4K kaynaklardan 8 doku orijinal TGA boyutlarına Lanczos ile indirildi ve alpha maskeleri korundu; 5 asker slaytı orijinal fotoğraflarına döndürüldü.",
-    "Napalm Strike ve Fuel Drum Blast: 2 yeni 32-bit flipbook atlas, 2 yeni PARTICLESYSTEM ve 2 DEBRIS eventi (node=0). Toplam PARTICLEEVENT 513, PARTICLESYSTEM 210.",
-    "Yıkıntıda alev / duman / kıvılcım zinciri, ağır yıkım sesi ve AC-130 motor + 30mm sesleri restore edildi; 4 yeni WAV mod + root'a eklendi.",
-    "Ana menü deneyleri (premium / Claude paketi) geri alındı; orijinal 7 butonlu menü, center_off_x=0 ve top=220 korundu.",
-    "Tüm Data XML'leri parse edildi, 0 duplicate event, 0 node!=0; yeni sesler 44.1 kHz / 16 bit stereo, restore edilen eski sesler muaf.",
-    "Launcher envanteri, indirilebilir yama zip'i, GitHub manifest/release ve arkadaş güncelleme paketi v2026.19 için senkronize edildi."
+    "ABD iÃ§in Ã¼retilen Ã¶zel binalar (abd2026x/abd2026c) sadece USA/COLONIAL kayÄ±tlarÄ±na sabitlendi; diÄŸer Ã¼lkelere (Syria vb.) sÄ±zma engellendi.",
+    "POWERPLANT DEFAULT kaydÄ± vanilla refinery_6.tga'ya dÃ¶ndÃ¼rÃ¼ldÃ¼; refinery_usa.tga sadece POWERPLANT-COLONIAL-AGE0'a verildi. BÃ¶ylece ABD elektrik santrali yalnÄ±z USA'da gÃ¶rÃ¼nÃ¼r.",
+    "COLONIAL age karÄ±ÅŸmalarÄ± (FACTORY/SHIPYARD/STOCKADE/FORTRESS vb.) canonical ref/zbuffer/offset formatÄ±na Ã§ekildi; maÃ§ aÃ§Ä±lÄ±ÅŸÄ±nda eski-yeni bina karÄ±ÅŸmasÄ± azaltÄ±ldÄ±.",
+    "Library ABD binasÄ± sÄ±fÄ±rdan yeniden Ã¼retildi, library_6s ref canvas/bottom-contact hizasÄ±na oturtuldu; siyah ikon/boÅŸ teknoloji gÃ¶rÃ¼nÃ¼mÃ¼ veren uyumsuzluk giderildi.",
+    "Root+mod building_graphics.xml ve ilgili abd2026/refinery TGA'lar senkronlandÄ±; tÃ¼m deÄŸiÅŸiklikler tarihli GERI_AL yedekleriyle alÄ±ndÄ± ve XML parse doÄŸrulandÄ±."
   ]
 }
